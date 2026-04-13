@@ -18,4 +18,9 @@ function displayCount() {
   document.getElementById("countDisplay").innerHTML = count; // Display the count in the HTML
 }
 
+function resetCount() {
+    count = 0; //Resetting count to zero
+    document.getElementById("countDisplay").innerHTML = count;
+    alert("The Followers have been reseted to Zero");
+}
 
